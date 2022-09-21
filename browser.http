@@ -1,0 +1,19 @@
+GET http://localhost:3001/movies/
+###
+
+GET http://localhost:3001/movies/46/
+###
+
+POST http://localhost:3001/movies/
+###
+
+PUT http://localhost:3001/movies/46/
+###
+
+DELETE http://localhost:3001/movies/49/
+###
+
+GET http://localhost:3001/directors/
+###
+
+GET http://localhost:3001/directors/:directorId/movies/
